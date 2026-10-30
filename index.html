@@ -70,9 +70,9 @@
 <main>
 
 <h1>Tuition App: Privacy Policy</h1>
-<p class="meta">Last updated: 26 October 2026</p>
+<p class="meta">Last updated: 30 October 2026</p>
 
-<p>The Tuition App is used by a tuition teacher and their students to manage classes: attendance, fees, homework, notes, tests, notices and timetables. This page explains what information the app stores, why, who can see it, and how to have it deleted.</p>
+<p>The Tuition App is used by a tuition teacher and their students to manage classes: attendance, fees, homework, notes, tests, notices, timetables and doubts. This page explains what information the app stores, why, who can see it, and how to have it deleted.</p>
 
 <nav aria-label="On this page">
   <ul>
@@ -94,41 +94,46 @@
     <tr><td>Attendance, fee status, test marks</td><td>To show the student and the teacher their records.</td></tr>
     <tr><td>Batch membership</td><td>To show each student only the notices, notes, homework and timetable of their own batches.</td></tr>
     <tr><td>Join code entered at sign-up</td><td>To confirm the student was invited by the teacher.</td></tr>
+    <tr><td>Doubts: the question a student types, an optional photo the student chooses to attach, an optional link, and the teacher's reply (which may also include a photo)</td><td>So a student can ask the teacher a question and receive an answer.</td></tr>
+    <tr><td>Notification token and the phone's brand and model (for example "Samsung SM-A15")</td><td>To deliver notifications about notices, homework, fees, attendance and other updates to the student's phone.</td></tr>
   </tbody>
 </table>
 </div>
-<p>The app does not collect location, contacts, photos, microphone or advertising identifiers, and it shows no ads.</p>
+<p>The app does not collect location, contacts, microphone recordings or advertising identifiers, and it shows no ads. It does not browse your photo gallery: it receives a photo only when a student picks one to attach to a doubt.</p>
+<p>The teacher also keeps records about the tuition's own staff (name, optional phone number, role and salary). This is used only by the teacher and is not visible to students.</p>
 
 <h2 id="use">How it is used</h2>
-<p>Information is used only to run the tuition classes: logging in, showing records, sending notices, and letting the teacher manage batches, attendance and fees. It is not sold, and it is not used for advertising or profiling.</p>
+<p>Information is used only to run the tuition classes: logging in, showing records, sending notices and notifications, answering doubts, and letting the teacher manage batches, attendance and fees. It is not sold, and it is not used for advertising, tracking or profiling.</p>
 
 <h2 id="share">Who can see it</h2>
 <ul>
-  <li><strong>The teacher</strong> can see the records of all students.</li>
+  <li><strong>The teacher</strong> can see the records of all students, including their doubts.</li>
   <li><strong>Each student</strong> can see only their own records and the content of the batches they belong to.</li>
-  <li><strong>Google Firebase</strong> stores the data and handles Google sign-in on our behalf (Firebase Authentication and Cloud Firestore). Google processes it under its own <a href="https://firebase.google.com/support/privacy">Firebase privacy terms</a>.</li>
+  <li><strong>Google Firebase</strong> stores the data and handles Google sign-in and notifications on our behalf (Firebase Authentication, Cloud Firestore and Firebase Cloud Messaging). The data is stored on Google's servers in India (Mumbai) and is sent over encrypted connections. Google processes it under its own <a href="https://firebase.google.com/support/privacy">Firebase privacy terms</a>.</li>
+  <li><strong>YouTube</strong>: lecture videos shared by the teacher play through YouTube inside the app. YouTube may collect its own usage data under <a href="https://policies.google.com/privacy">Google's privacy policy</a>.</li>
+  <li><strong>WhatsApp</strong>: when the teacher taps a contact button, WhatsApp opens with the parent's or student's number and a message ready to send. WhatsApp's own privacy policy applies to messages sent there.</li>
 </ul>
 <p>We do not share student information with anyone else, except where the law requires it.</p>
 
 <h2>Children</h2>
-<p>Many students are under 18. The app is used only by students whose teacher gave them a join code, and the parent's mobile number is stored so the family stays informed. A parent or guardian can ask for a child's account to be deleted at any time, using the steps below.</p>
+<p>The app is meant for students aged 13 and above. Many students are under 18. The app is used only by students whose teacher gave them a join code, and the parent's mobile number is stored so the family stays informed. A parent or guardian can ask for a child's account to be deleted at any time, using the steps below.</p>
 
 <h2>Security and blocked accounts</h2>
 <p>Data is stored in Google's Firebase and is protected by access rules, so a student cannot read another student's records. The teacher can block an account. A blocked student cannot log in, and their records are hidden from the teacher's screens until the teacher unblocks them.</p>
 
 <h2>How long data is kept</h2>
-<p>Records are kept while the student's account exists, so that attendance, fees and marks stay available. They are removed when the account is deleted as described below.</p>
+<p>Records are kept while the student's account exists, so that attendance, fees, marks and doubts stay available. They are removed when the account is deleted as described below. A phone's notification token is also removed when the student logs out.</p>
 
 <h2 id="delete">Delete your account and data</h2>
 <p>You can ask for your account and all your records to be deleted at any time.</p>
 <ol>
   <li>Open the app and go to <strong>My account</strong>.</li>
   <li>Tap <strong>Request account deletion</strong> and confirm.</li>
-  <li>Your teacher receives the request and approves it.</li>
-  <li>When it is approved, your profile, attendance, fee records, test results and batch memberships are permanently deleted, and you are logged out.</li>
+  <li>Your teacher receives the request and approves it, normally within 7 days.</li>
+  <li>When it is approved, your profile, attendance, fee records, test results, doubts and attached photos, batch memberships and notification token are permanently deleted, and you are logged out.</li>
 </ol>
 <div class="note">
-  <p><strong>Cannot open the app?</strong> Email <a href="mailto:harshjangra19062007@gmail.com?subject=Account%20deletion%20request">harshjangra19062007@gmail.com</a> with the student's name and the Google email they use in the app, and we will pass the request to the teacher.</p>
+  <p><strong>Cannot open the app?</strong> Email <a href="mailto:harshjangra19062007@gmail.com?subject=Account%20deletion%20request">harshjangra19062007@gmail.com</a> with the student's name and the Google email they use in the app, and we will pass the request to the teacher. Parents and guardians can send the request in the same way.</p>
 </div>
 <p>Deletion cannot be undone. After it, the same Google account can sign up again as a new student with a join code. Your Google account email may stay on the login list of Firebase Authentication for a while after deletion; it is no longer linked to any name or records.</p>
 
